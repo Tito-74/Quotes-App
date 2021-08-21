@@ -1,1 +1,10 @@
-<p>quote works!</p>
+<div>
+    <h1>My quotes</h1>
+    <ul>
+      <li *ngFor='let quote of quotes;let i = index'>{{quote.quot}} Created on {{quote.completeDate|date}}
+        <button (click)='toggleDetails(i)'>Author</button>
+        <app-quote-detail *ngIf='quote.showAuthor'[quote] = 'quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+    </li>
+    </ul>
+    <p *ngIf='quotes.length > 5'>hello</p>
+  </div>
