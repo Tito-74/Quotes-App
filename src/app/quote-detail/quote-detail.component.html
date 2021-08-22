@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <p>Created  by {{quote.name}} {{quote.completeDate|dateCount}} Days ago</p>
-<!-- Created {{quote.completeDate|dateCount}} Days ago -->
+
 <br>
-<button id='like'(click)= 'likeButtonClick()'>Like</button>
+<button id='like'(click)= 'likeButtonClick()'><i class="fa fa-thumbs-up"></i>Like</button>
 <span>{{numberOfLike}}</span>
-<button id='dislike' (click)='dislikeButtonClick()'>Dislike</button>
+<button id='dislike' (click)='dislikeButtonClick()'><i class="fa fa-thumbs-down"></i>Dislike</button>
 <span>{{numberOfDislike}}</span>
 <button id='delete'(click)= 'quoteComplete(true)'>Delete</button>
