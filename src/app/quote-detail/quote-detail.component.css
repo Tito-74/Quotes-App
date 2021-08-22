@@ -10,3 +10,10 @@
     background-color: crimson;
     float: right;
 }
+@media screen and (max-width:700px) {
+    #delete{
+        margin-top: 1rem;
+       
+
+    }
+}

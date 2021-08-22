@@ -45,3 +45,15 @@
     margin-top: 30px;
 
 }
+@media screen and (max-width:700px) {
+    .quoteText{
+        width: 40%;
+    }
+    .form{
+        margin-left: 0;
+    }
+    .quoteText button{
+        margin: 1rem 2rem;
+        /* margin-top: 30px; */
+    }
+}
