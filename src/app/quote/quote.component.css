@@ -18,3 +18,10 @@
     justify-content: center;
 
 }
+.quoteText button{
+    justify-self: center;
+    display: block;
+    margin: 1rem 5rem;
+    margin-top: 2rem;
+
+}
