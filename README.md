@@ -1,12 +1,9 @@
 # Quotes
 ## Crerated by
-### Langat Tito Kipkirui
+#### Langat Tito Kipkirui
 
 ## Description
-This is a platform where one can write quotes for inspiration  and any that bring hope to the life.
-
-## Crerated by
-### Langat Tito Kipkirui
+This is a platform where one can write a quote for inspiration  or any that bring hope to life.This platform can be used to encourage people in the society
 
 ## Development server
 
@@ -31,6 +28,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
 ## Technologies Used
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
