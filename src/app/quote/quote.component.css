@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .container{
     
     background-image: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=778&q=80);
@@ -21,12 +21,14 @@
 }
 .quoteText{
     width: 30%;
+    font-family: 'Lobster', cursive;
     text-align: center;
     padding: 10px;
     background-color: rgb(248, 218, 142);
     border: 1px solid #00eeff;
     margin-bottom: 2rem;
     justify-content: center;
+    box-shadow: -10px -10px #FFB94E;
 
 }
 .quoteText button{
