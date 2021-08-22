@@ -1,5 +1,5 @@
 # Quotes App
-## Crerated by
+## Created by
 #### Langat Tito Kipkirui
 
 ## Description
