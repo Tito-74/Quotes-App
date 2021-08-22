@@ -1,0 +1,12 @@
+#like{
+    background-color: rgb(133, 235, 133);
+
+}
+#dislike{
+    background-color: coral;
+    
+}
+#delete{
+    background-color: crimson;
+    float: right;
+}
