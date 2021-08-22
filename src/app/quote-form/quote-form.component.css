@@ -1,0 +1,12 @@
+.form-layout{
+    background-color: #00eeff;
+}
+form #completeDate{
+    margin-left: 10px;
+    
+}
+form button{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 15px;
+}
